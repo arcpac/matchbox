@@ -21,7 +21,7 @@ export default function TopNav() {
         <p className="font-bold text-inherit">MatchBox</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavLink href="/home" label="Home" />
+        <NavLink href="/" label="Home" />
         <NavLink href="/members" label="Members" />
         <NavLink href="/messages" label="Messages" />
       </NavbarContent>
